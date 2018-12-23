@@ -36,3 +36,19 @@ $(window).on("load", function() {
     }
     countDown();
 });
+
+$('.btn-submit').on('click', function(e) {
+    
+    var email = $('.email').val();
+    var re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+    
+    const isEmail = re.test(email);
+    
+    if (isEmail) {
+        $('form').submit();
+    } else {
+        $('form').preventDefault();
+        $('.error').removeClass('d-none').addClass('d-block');
+    }
+    console.log(isEmail);
+});
