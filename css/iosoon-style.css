@@ -33,7 +33,7 @@ html, body {
 
 .form-body {
     position: relative;
-    background-color: #0093FF;
+    background-color: #9000f8;
     height: 100%;
     z-index: 1;
 }
@@ -410,19 +410,19 @@ html, body {
 }
 
 .form-holder .form-content ::-webkit-input-placeholder {
-    color: #526489;
+    color: #9000f8;
 }
 
 .form-holder .form-content :-moz-placeholder {
-    color: #526489;
+    color: #9000f8;
 }
 
 .form-holder .form-content ::-moz-placeholder {
-    color: #526489;
+    color: #9000f8;
 }
 
 .form-holder .form-content :-ms-input-placeholder {
-    color: #526489;
+    color: #9000f8;
 }
 
 .form-holder.custom-bg {
@@ -488,19 +488,19 @@ html, body {
 }
 
 .form-control ::-webkit-input-placeholder {
-    color: #526489;
+    color: #9000f8;
 }
 
 .form-control :-moz-placeholder {
-    color: #526489;
+    color: #9000f8;
 }
 
 .form-control ::-moz-placeholder {
-    color: #526489;
+    color: #9000f8;
 }
 
 .form-control :-ms-input-placeholder {
-    color: #526489;
+    color: #9000f8;
 }
 
 .form-content {
